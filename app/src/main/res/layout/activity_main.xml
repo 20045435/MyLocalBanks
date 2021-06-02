@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#1E1D1C"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewDBS"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/dbs"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewOCBC"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E82F2F"
+            android:gravity="center"
+            android:text="@string/ocbc"
+            android:textColor="@color/white"
+            android:textColorHint="@color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewUOB"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0E137E"
+            android:gravity="center"
+            android:text="@string/uob"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </LinearLayout>
+</LinearLayout>
